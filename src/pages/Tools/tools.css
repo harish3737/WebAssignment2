@@ -1,0 +1,25 @@
+
+.add-note{
+    cursor: pointer;
+}
+
+.tools-container {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.feed-container {
+    height: 300px !important;
+    gap: 6px;
+}
+
+.news-feed {
+    width: 300px !important;
+    height: 300px !important;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.news-feed:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

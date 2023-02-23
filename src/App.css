@@ -1,0 +1,28 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+a {
+  text-decoration: none !important;
+}
+ul{
+  list-style: none !important;
+}
+
+.header {
+  background-color: white;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
+}
+
+.nav-link:hover{
+  color: black;
+  font-weight: bold !important;
+}
+
+@media (max-width: 768px) {
+  .header{
+    background-color: orange !important;
+  }
+  .nav-link{
+      font-style: italic !important;
+  }
+}
